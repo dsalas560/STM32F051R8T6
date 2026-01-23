@@ -1,4 +1,6 @@
-Design a seven-segment display driver
+Objectives for different projects 
+
+2) Design a seven-segment display driver
 to interface a seven-segment display and display information from the embedded system
 using port interrupts
 using SysTick to debounce a switch
