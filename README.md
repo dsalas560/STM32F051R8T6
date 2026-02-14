@@ -2,6 +2,16 @@
 Projects using microcontroller STM32F051R8T6,  
 Software used: VisualStudio Code and STM32CubeMX  
 
+## Important
+
+All projects in this repository are configured using **STM32CubeMX**, which auto-generates peripheral initialization code, HAL libraries, and project structure. 
+
+**What this means:**
+- The `Core/` directory and HAL files (`stm32f0xx_*.c/h`, `system_stm32f0xx.c`, etc.) are auto-generated
+- **Custom user code** is found in specific files listed in each project's README
+- To modify pin assignments or peripheral settings, open the `.ioc` file in STM32CubeMX and regenerate code
+
+
 Materials/Components used throughout (Mouser Part Number) 
 
 1) 595-SN74HC595N  
