@@ -46,11 +46,6 @@ This project implements a realistic traffic intersection controller with two one
 ## Pin Configuration
 
 ### Shift Register (SN74HC595N)
-- **PA8**: SRCLK (shift register clock)
-- **PA9**: RCLK (storage register clock / latch)
-- **PA10**: SER (serial data input)
-- **PA11**: OE (output enable, active low)
-
 Shift register outputs connect to 6 traffic LEDs + 2 crosswalk LEDs.
 
 ### Input Sensors
